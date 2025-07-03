@@ -1,0 +1,21 @@
+{
+	"name": "@interview/root",
+	"private": true,
+	"workspaces": [
+		"packages/*"
+	],
+	"devDependencies": {
+		"craco": "^0.0.3",
+		"lerna": "^7.1.4",
+		"sass": "^1.65.1"
+	},
+	"scripts": {
+		"site": "lerna exec --scope @interview/site -- yarn start",
+		"api": "lerna exec --scope @interview/api -- npm run dev"
+	},
+	"version": "1.0.0",
+	"main": "index.js",
+	"repository": "git@github.com:EmperarMX/interview.git",
+	"author": "Andrés Sánchez",
+	"license": "MIT"
+}
