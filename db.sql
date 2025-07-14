@@ -6,7 +6,7 @@ CREATE TABLE user(
 	email					VARCHAR(255) NOT NULL,
 	password				VARCHAR(255) NOT NULL,
 	date_created		INT UNSIGNED NULL,
-	PRIMARY KEY(user_id);
+	PRIMARY KEY(user_id)
 );
 
 CREATE TRIGGER created_user BEFORE INSERT ON user FOR EACH ROW
