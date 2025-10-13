@@ -1,3 +1,6 @@
+# AREMA - Prueba Técnica Desarrollador Fullstack
+Sobre este mismo proyecto, realizar las siguientes tareas
+
 ## JS / TS
 - Usar regexp para validar el siguiente string: `A0129T2019_9A0`
 	- Debe de extraer los valores de `0129`, `2019` y `9A0`
