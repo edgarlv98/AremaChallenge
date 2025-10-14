@@ -13,6 +13,7 @@ interface ConfigFile {
 		password: string,
 		database: string,
 	},
+	jwtSecret: string
 }
 
 const default_config : ConfigFile = {
@@ -21,12 +22,13 @@ const default_config : ConfigFile = {
 		api: 9801,
 	},
 	db_config: {
-		host: '',
+		host: 'localhost',
 		port: 3306,
-		database: '',
-		user: '',
-		password: '',
+		database: 'interview',
+		user: 'root',
+		password: 'melissa10',
 	},
+	jwtSecret: 'secret'
 };
 
 let Config : ConfigFile;

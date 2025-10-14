@@ -5,6 +5,15 @@ import Config from './Config';
 import moment from 'moment';
 
 var db_config = Config.db_config;
+console.log(db_config);
+
+// var db_config = {
+// 	host: 'localhost',
+// 	port: 3306,
+// 	database: 'interview',
+// 	user: 'root',
+// 	password: 'melissa10'
+// }
 
 var connection: Pool;
 (async ()=>{

@@ -5,6 +5,7 @@
 		"packages/*"
 	],
 	"devDependencies": {
+		"@types/jsonwebtoken": "^9.0.10",
 		"craco": "^0.0.3",
 		"lerna": "^7.1.4",
 		"sass": "^1.65.1"
@@ -17,5 +18,8 @@
 	"main": "index.js",
 	"repository": "git@github.com:EmperarMX/interview.git",
 	"author": "Andrés Sánchez",
-	"license": "MIT"
+	"license": "MIT",
+	"dependencies": {
+		"jsonwebtoken": "^9.0.2"
+	}
 }
