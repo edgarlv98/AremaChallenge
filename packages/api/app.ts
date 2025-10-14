@@ -17,6 +17,7 @@ const app = express();
 app.use(express.json());
 app.use(cors({ origin: 'http://localhost:3000' }));
 
+/* Signup function */
 app.post('/signup', async (req: Request, res: Response) => {
     const { email, password, confirmPassword } = req.body;
 
@@ -47,6 +48,7 @@ app.post('/signup', async (req: Request, res: Response) => {
     }
 });
 
+/* Login function */
 app.post('/login', async (req: Request, res: Response) => {
     const { email, password } = req.body;
 
