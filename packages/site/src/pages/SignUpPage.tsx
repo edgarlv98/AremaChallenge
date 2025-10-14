@@ -17,25 +17,31 @@ const SignUpPage = () => {
     };
 
     return (
-        <div>
+        <div style={{margin: '25px'}}>
             <form onSubmit={(e) => handleSignup(e)}>
-                <label>Email</label>
-                <input
-                    value={email}
-                    onChange={(e) => setEmail(e.target.value)}
-                />
-                <label>Password</label>
-                <input
-                    type='password'
-                    value={password}
-                    onChange={(e) => setPassword(e.target.value)}
-                />
-                <label>Confirm password</label>
-                <input
-                    type='password'
-                    value={confirmPassword}
-                    onChange={(e) => setConfirmPassword(e.target.value)}
-                />
+                <div style={{padding: '10px'}}>
+                    <label style={{paddingRight: '10px'}}>Email</label>
+                    <input
+                        value={email}
+                        onChange={(e) => setEmail(e.target.value)}
+                    />
+                </div>
+                <div style={{padding: '10px'}}>
+                    <label style={{paddingRight: '10px'}}>Password</label>
+                    <input
+                        type='password'
+                        value={password}
+                        onChange={(e) => setPassword(e.target.value)}
+                    />
+                </div>
+                <div style={{padding: '10px'}}>
+                    <label style={{paddingRight: '10px'}}>Confirm password</label>
+                    <input
+                        type='password'
+                        value={confirmPassword}
+                        onChange={(e) => setConfirmPassword(e.target.value)}
+                    />
+                </div>
                 <button type='submit'>Submit</button>
             </form>
         </div>

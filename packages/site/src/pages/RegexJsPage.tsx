@@ -23,7 +23,7 @@ const RegexJsPage = () => {
     };
 
     return (
-        <div>
+        <div style={{margin: '25px'}}>
             <h1>Regex challenge</h1>
             <h4>String: A0129T2019_9A0</h4>
             <h5>First group: { firstGroup }</h5>

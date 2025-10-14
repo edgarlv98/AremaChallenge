@@ -7,8 +7,13 @@ import ButtonTestPage from './pages/ButtonTestPage.tsx';
 import RegexJsPage from './pages/RegexJsPage.tsx';
 import LoginPage from './pages/LoginPage.tsx';
 import SignUpPage from './pages/SignUpPage.tsx';
+import WelcomePage from './pages/WelcomePage.tsx';
 
 const Router = createBrowserRouter([
+	{
+		path: '/',
+		element: <WelcomePage />
+	},
 	{
 		path: 'buttonTestPage',
 		element: <ButtonTestPage />

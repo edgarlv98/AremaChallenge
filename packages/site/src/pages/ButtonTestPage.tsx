@@ -11,7 +11,7 @@ const ButtonTestPageContent = () => {
     };
 
     return (
-        <div style={{margin: '20px'}}>
+        <div style={{margin: '25px'}}>
             <h1>Button and hook tests</h1>
             <NumberProvider>
                 <Button text='Increment (+2)' onClick={() => increment(2)} />
